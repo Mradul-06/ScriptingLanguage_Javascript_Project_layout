@@ -3,7 +3,6 @@ const menu = [
     id: 1,
     title: "game_name-1",
     category: "Category-1",
-    price: 15.99,
     img: "./images/game-1.jpeg",
     desc: `Game 1 Description`,
   },
@@ -11,7 +10,6 @@ const menu = [
     id: 2,
     title: "game_name-2",
     category: "Category-1",
-    price: 13.99,
     img: "./images/game-2.jpeg",
     desc: `Game 2 Description`,
   },
@@ -19,7 +17,6 @@ const menu = [
     id: 3,
     title: "game_name-3",
     category: "Category-1",
-    price: 6.99,
     img: "./images/game-3.jpeg",
     desc: `Game 3 Description`,
   },
@@ -27,7 +24,6 @@ const menu = [
     id: 4,
     title: "game_name-4",
     category: "Category-2",
-    price: 20.99,
     img: "./images/game-4.jpeg",
     desc: `Game 4 Description`,
   },
@@ -35,7 +31,6 @@ const menu = [
     id: 5,
     title: "game_name-5",
     category: "Category-2",
-    price: 22.99,
     img: "./images/game-5.jpeg",
     desc: `Game 5 Description`,
   },
@@ -43,7 +38,6 @@ const menu = [
     id: 6,
     title: "game_name-6",
     category: "Category-2",
-    price: 18.99,
     img: "./images/game-6.jpeg",
     desc: `Game 6 Description`,
   },
@@ -51,7 +45,6 @@ const menu = [
     id: 7,
     title: "game_name-7",
     category: "Category-3",
-    price: 8.99,
     img: "./images/game-7.jpeg",
     desc: `Game 7 Description`,
   },
@@ -59,7 +52,6 @@ const menu = [
     id: 8,
     title: "game_name-8",
     category: "Category-3",
-    price: 12.99,
     img: "./images/game-8.jpeg",
     desc: `Game 8 Description`,
   },
@@ -67,7 +59,6 @@ const menu = [
     id: 9,
     title: "game_name-9",
     category: "Category-4",
-    price: 16.99,
     img: "./images/game-9.jpeg",
     desc: `Game 9 Description`,
   },
@@ -75,7 +66,6 @@ const menu = [
     id: 10,
     title: "game_name-10",
     category: "Category-4",
-    price: 22.99,
     img: "./images/game-10.jpeg",
     desc: `Game 10 Description`,
   },
@@ -98,7 +88,6 @@ function diplayMenuItems(menuItems) {
           <div class="item-info">
             <header>
               <h4>${item.title}</h4>
-              <h4 class="price">$${item.price}</h4>
             </header>
             <p class="item-text">
               ${item.desc}
