@@ -88,16 +88,16 @@ function diplayMenuItems(menuItems) {
     return `<article class="menu-item">
       <a href=${item.link}>    
       <img src=${item.img} alt=${item.title} class="photo" />
+      <div class="item-info">
+      <header>
+      <h4>${item.title}</h4>
+      </header>
+      <p class="item-text">
+      ${item.desc}
+      </p>
       </a>
-          <div class="item-info">
-            <header>
-              <h4>${item.title}</h4>
-            </header>
-            <p class="item-text">
-              ${item.desc}
-            </p>
-          </div>
-        </article>`;
+      </div>
+    </article>`;
   });
   displayMenu = displayMenu.join("");
   // console.log(displayMenu);
