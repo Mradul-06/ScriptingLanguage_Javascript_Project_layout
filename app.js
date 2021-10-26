@@ -17,10 +17,11 @@ const menu = [
   },
   {
     id: 3,
-    title: "game_name-3",
+    title: "Tic-Tac-Toe",
     category: "Category-1",
-    img: "./images/game-3.jpeg",
-    desc: `Game 3 Description`,
+    img: "./images/tictactoe.jpeg",
+    desc: `Tic-Tac-Toe`,
+    link:"https://flamboyant-villani-f26815.netlify.app"
   },
   {
     id: 4,
