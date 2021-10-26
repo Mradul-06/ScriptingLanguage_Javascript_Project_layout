@@ -87,16 +87,16 @@ function diplayMenuItems(menuItems) {
     // console.log(item);
 
     return `<article class="menu-item">
-      <a href=${item.link}>    
+      <a href="${item.link}" target="_blank" >    
       <img src=${item.img} alt=${item.title} class="photo" />
       <div class="item-info">
       <header>
       <h4>${item.title}</h4>
       </header>
+      </a>
       <p class="item-text">
       ${item.desc}
       </p>
-      </a>
       </div>
     </article>`;
   });
