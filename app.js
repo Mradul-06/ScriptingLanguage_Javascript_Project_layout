@@ -1,17 +1,19 @@
 const menu = [
   {
     id: 1,
-    title: "game_name-1",
+    title: "Tetris",
     category: "Category-1",
-    img: "./images/game-1.jpeg",
-    desc: `Game 1 Description`,
+    img: "./images/tetris.jpeg",
+    desc: `Arrange block in order`,
+    link:"https://tetrisinjs-mradul.netlify.app"
   },
   {
     id: 2,
-    title: "game_name-2",
+    title: "Memory Game",
     category: "Category-1",
-    img: "./images/game-2.jpeg",
-    desc: `Game 2 Description`,
+    img: "./images/memorygame.png",
+    desc: `Test Your Memory`,
+    link:"https://memorygame-mradul.netlify.app"
   },
   {
     id: 3,
@@ -84,7 +86,9 @@ function diplayMenuItems(menuItems) {
     // console.log(item);
 
     return `<article class="menu-item">
-          <img src=${item.img} alt=${item.title} class="photo" />
+      <a href=${item.link}>    
+      <img src=${item.img} alt=${item.title} class="photo" />
+      </a>
           <div class="item-info">
             <header>
               <h4>${item.title}</h4>
