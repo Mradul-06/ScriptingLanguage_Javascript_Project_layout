@@ -4,7 +4,7 @@ const menu = [
     title: "Tetris",
     category: "Category-1",
     img: "./images/tetris.jpeg",
-    desc: `Arrange block in order`,
+    desc: `Arrange Blocks in Order`,
     link:"https://tetrisinjs-mradul.netlify.app"
   },
   {
@@ -12,12 +12,12 @@ const menu = [
     title: "Memory Game",
     category: "Category-1",
     img: "./images/memorygame.png",
-    desc: `Test Your Memory`,
+    desc: `Test Your Memory :-)`,
     link:"https://memorygame-mradul.netlify.app"
   },
   {
     id: 3,
-    title: "Tic-Tac-Toe",
+    title: "Tic-Tac-Toe (O - X)",
     category: "Category-1",
     img: "./images/tictactoe.jpeg",
     desc: `Tic-Tac-Toe`,
@@ -25,18 +25,19 @@ const menu = [
   },
   {
     id: 4,
+    title: "Ping Pong",
+    category: "Category-2",
+    img: "./images/Ping-Pong.png",
+    desc: `Ping Pong Game |o|`,
+    link: "https://ping-pong-games.netlify.app"
+  },
+  {
+    id: 5,
     title: "Catch Me If You Can",
     category: "Category-2",
     img: "./images/Catch-Me-If-You-Can.jpg",
     desc: `Try to Catch the "Catch Me"`,
-    link: "https://catch-me-if-you-can-divyam.netlify.app"
-  },
-  {
-    id: 5,
-    title: "game_name-5",
-    category: "Category-2",
-    img: "./images/game-5.jpeg",
-    desc: `Game 5 Description`,
+    link: "https://catch-me-if-you-can-game.netlify.app"
   },
   {
     id: 6,
