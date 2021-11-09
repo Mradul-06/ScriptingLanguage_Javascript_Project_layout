@@ -41,10 +41,11 @@ const menu = [
   },
   {
     id: 6,
-    title: "game_name-6",
+    title: "Dinosaur Game",
     category: "Category-2",
-    img: "./images/game-6.jpeg",
-    desc: `Game 6 Description`,
+    img: "./images/Dinosaur-Game.png",
+    desc: `Dinosaur Game`,
+    link: "https://chrome-dinosaur-game.netlify.app/"
   },
   {
     id: 7,
