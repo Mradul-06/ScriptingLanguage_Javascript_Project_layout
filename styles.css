@@ -20,7 +20,7 @@ Global Styles
 }
 body {
   font-family: "Open Sans", sans-serif;
-  background: white;
+  background-image: url();
   color: hsl(0, 41%, 43%);
   line-height: 1.5;
   font-size: 0.875rem;

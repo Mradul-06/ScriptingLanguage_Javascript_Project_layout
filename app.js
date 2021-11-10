@@ -90,7 +90,7 @@ function diplayMenuItems(menuItems) {
     // console.log(item);
 
     return `<article class="menu-item">
-      <a href="${item.link}" target="_blank" >    
+      <a href="${item.link}" target="_self" >    
       <img src=${item.img} alt=${item.title} class="photo" />
       <div class="item-info">
       <header>
