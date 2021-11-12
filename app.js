@@ -49,10 +49,11 @@ const menu = [
   },
   {
     id: 7,
-    title: "game_name-7",
+    title: "Space Shooter",
     category: "Category-3",
-    img: "./images/game-7.jpeg",
-    desc: `Game 7 Description`,
+    img: "./images/sapceshooter.png",
+    desc: `Shoot Aliens Out Of The Sky`,
+    link: "https://space-shooter-by-sarthak.netlify.app/"
   },
   {
     id: 8,
