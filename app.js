@@ -57,10 +57,11 @@ const menu = [
   },
   {
     id: 8,
-    title: "game_name-8",
+    title: "Pacman",
     category: "Category-3",
-    img: "./images/game-8.jpeg",
+    img: "./images/pacman.png",
     desc: `Game 8 Description`,
+    link:"https://pacman-by-rudraksh.netlify.app/"
   },
   {
     id: 9,
