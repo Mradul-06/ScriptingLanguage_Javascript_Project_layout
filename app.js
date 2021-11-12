@@ -60,22 +60,24 @@ const menu = [
     title: "Pacman",
     category: "Category-3",
     img: "./images/pacman.png",
-    desc: `Game 8 Description`,
+    desc: `Pacman Game`,
     link:"https://pacman-by-rudraksh.netlify.app/"
   },
   {
     id: 9,
-    title: "game_name-9",
+    title: "Maze-Game",
     category: "Category-4",
-    img: "./images/game-9.jpeg",
-    desc: `Game 9 Description`,
+    img: "./images/Maze.png",
+    desc: "Maze ",
+    link:"https://maze-game-byrudraksh.netlify.app/"
   },
   {
     id: 10,
-    title: "game_name-10",
+    title: "Clarity Master",
     category: "Category-4",
-    img: "./images/game-10.jpeg",
-    desc: `Game 10 Description`,
+    img: "./images/clarity.jpeg",
+    desc: `Ball Game`,
+    link:"https://clarity-masterbyrudraksh.netlify.app/"
   },
 ];
 // get parent element
