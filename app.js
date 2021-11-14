@@ -29,23 +29,23 @@ const menu = [
     category: "Category-2",
     img: "./images/Ping-Pong.png",
     desc: `Ping Pong Game |o|`,
-    link: "https://ping-pong-games.netlify.app"
+    link: "https://ping-pong-game-sl.netlify.app"
   },
   {
     id: 5,
-    title: "Catch Me If You Can",
+    title: "Ludo",
     category: "Category-2",
-    img: "./images/Catch-Me-If-You-Can.jpg",
-    desc: `Try to Catch the "Catch Me"`,
-    link: "https://catch-me-if-you-can-game.netlify.app"
+    img: "./images/Ludo.png",
+    desc: `Ludo - Multiplayer Game`,
+    link: "https://ludo-game-sl.netlify.app"
   },
   {
     id: 6,
-    title: "Dinosaur Game",
+    title: "Biker Game",
     category: "Category-2",
-    img: "./images/Dinosaur-Game.png",
-    desc: `Dinosaur Game`,
-    link: "https://chrome-dinosaur-game.netlify.app/"
+    img: "./images/Biker.png",
+    desc: `Biker Game`,
+    link: "https://biker-game-sl.netlify.app"
   },
   {
     id: 7,
